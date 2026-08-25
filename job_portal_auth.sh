@@ -163,7 +163,7 @@ def signInPage(request):
 def signOutPage(request):
     logout(request)
     messages.success(request,'Sign Out Success!')
-    return redirect('dashboardPage')
+    return redirect('signInPage')
 
 def dashboardPage(request):
 
